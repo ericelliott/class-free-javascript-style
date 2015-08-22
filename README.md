@@ -1,6 +1,12 @@
-# Airbnb JavaScript Style Guide() {
+# Class Free JavaScript Style Guide() {
 
-*A mostly reasonable approach to JavaScript*
+*A mostly reasonable fork of the AirBnB JavaScript Style Guide*
+
+Virtually identical, with the following **very important exceptions:**
+
+* Reverse the advice about `class` and `extends`. Instead, favor constructor functions and prototypal object composition.
+* Don't use `_` for `_privateProperties`. Use closures, instead, for true data privacy and a self-documenting API.
+
 
 [![Downloads](https://img.shields.io/npm/dm/eslint-config-airbnb.svg)](https://www.npmjs.com/package/eslint-config-airbnb)
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/airbnb/javascript?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
