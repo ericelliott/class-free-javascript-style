@@ -4,7 +4,7 @@
 
 Virtually identical, with the following **very important exceptions:**
 
-* Reverse the advice about `class` and `extends`. Instead, favor constructor functions and prototypal object composition.
+* Reverse the advice about `class` and `extends`. Instead, favor factory functions and prototypal object composition.
 * Don't use `_` for `_privateProperties`. Use closures, instead, for true data privacy and a self-documenting API.
 
 
